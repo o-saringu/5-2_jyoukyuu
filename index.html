@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>第5章反応　STEP2-上級問題</title>
+	<link rel = "stylesheet" href="website.css">
+</head>
+
+<body>
+	<div class = "title">
+	<h1 class = "daimei">プログラム復習コンテンツ</h1>
+	<div class="home"></div>
+	</div>
+
+	<h1 class = "daimei2">第5章反応　STEP2-上級問題</h1>
+
+	<div class = "yokonarabi">
+	<div class = "mondai">
+	<p class="midasi1">問題のコード</p>
+	<img src="5syou_2_jyoukyuu_mondai.png">
+	</div>
+
+	<div class = "gamen">
+	<p class="midasi2">プログラム実行画面</p>
+	<div class = "video">
+	<video controls muted autoplay loop src="5syou_2_jyoukyuu_kekka.mp4"></video>
+	</div>
+	</div>
+	</div>
+
+	<p class="midasi3">問題文</p>
+	<div class = "mondaibun">
+	<p>上図は,左クリックの場合は３つの円が赤,右クリックの場合は緑、クリックされていない場合は青となるプログラムです.</p>
+	<p>(1)マウスがクリックされた場合に,左クリックと判定するプログラムを埋めてください.</p>
+	<p>(2)マウスがクリックされた場合に,右クリックと判定するプログラムを埋めてください.</p>
+	<p>(3)マウスがクリックされていないことを判定するプログラムを埋めてください.</p>
+	
+	
+	<input type="checkbox" id="check1">
+	<label class="check1" for="check1">ヒント</label>
+	<div class = "hinto">
+	<p>(1)(2)マウスのボタンを判定するためには,mouseButtonを用いる.</p>
+
+	</div>
+	</div>
+	
+	<p class="midasi4">解答欄</p>
+	<div class = "kaitouran">
+	<p>
+	<label>(1)<input type="text" id="one" size="80" placeholder="解答を入力"></label>
+	<p id = "text1"></p>
+	</p>
+
+
+	<p>
+	<label>(2)<input type="text" id="two" size="80" placeholder="解答を入力"</label>
+	<p id = "text2"></p>
+	</p>
+
+	<p>
+	<label>(3)<input type="text" id="three" size="80" placeholder="解答を入力"</label>
+	<p id = "text3"></p>
+	</p>
+
+
+	<p>(1)if(mouseButton==LEFT)</p>
+	<p>(2)if(mouseButton==RIGHT)</p>
+	<p>(3)else</p>
+	
+	
+	<input type="button" id="btn" value="判定">
+	
+	
+	</div>
+	<script src = "main.js"></script>	
+</body>
+
+</html>
